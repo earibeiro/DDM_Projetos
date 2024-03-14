@@ -33,8 +33,8 @@ void main (List<String> args) {
 
   void main (List<String> args) {
   String email = '';
-  String senha = ''; 
-
+  String senha = '';
+  
   MinhaClasse mc = new MinhaClasse(x: 1,y: 2);
   var mc2 = MinhaClasse(x: 2,y: 10); // Utilizar este modelo.
   MinhaClasse(x: 3,y: 3); // Não possui REFERÊNCIA, não é recomendado.

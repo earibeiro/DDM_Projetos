@@ -3,6 +3,10 @@ import 'dart:io';
 class Login{
   String email;
   String senha;
+  int _z = 0;
+  
+  int get z => _z;
+  set z(int valor) => _z = valor;
 
   Login({required this.email, required this.senha}){
     while (this.email == null || this.email == '' || this.senha == null || this.senha == ''){
