@@ -19,6 +19,8 @@ https://dart.dev/tools/linter-rules/unnecessary_getters_setters
 
 */
 
+import 'dart:io';
+
 import 'package:flutter_application_1/minha_classe.dart';
 import 'package:flutter_application_1/sua_classe.dart';
 
@@ -30,9 +32,19 @@ void main (List<String> args) {
 */
 
   void main (List<String> args) {
+  String email = '';
+  String senha = ''; 
+
   MinhaClasse mc = new MinhaClasse(x: 1,y: 2);
   var mc2 = MinhaClasse(x: 2,y: 10); // Utilizar este modelo.
   MinhaClasse(x: 3,y: 3); // Não possui REFERÊNCIA, não é recomendado.
 
-  Login l1 = new Login(email: 'Elu',senha: '123');
+  print('Informe o email: ');
+  email = stdin.readLineSync()!;
+
+  print('Informe a senha: ');
+  senha = stdin.readLineSync()!;
+
+  Login l1 = new Login(email: email,senha: senha);  
+
 }
