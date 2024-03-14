@@ -19,4 +19,20 @@ https://dart.dev/tools/linter-rules/unnecessary_getters_setters
 
 */
 
+import 'package:flutter_application_1/minha_classe.dart';
+import 'package:flutter_application_1/sua_classe.dart';
 
+/*
+void main (List<String> args) {
+  MinhaClasse mc = new MinhaClasse(1,2);
+  var mc2 = MinhaClasse(2, 10); // Utilizar este modelo.
+  MinhaClasse(3,3); // Não possui REFERÊNCIA, não é recomendado.
+*/
+
+  void main (List<String> args) {
+  MinhaClasse mc = new MinhaClasse(x: 1,y: 2);
+  var mc2 = MinhaClasse(x: 2,y: 10); // Utilizar este modelo.
+  MinhaClasse(x: 3,y: 3); // Não possui REFERÊNCIA, não é recomendado.
+
+  Login l1 = new Login(email: 'Elu',senha: '123');
+}
