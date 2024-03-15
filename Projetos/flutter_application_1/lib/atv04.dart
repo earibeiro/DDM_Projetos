@@ -100,8 +100,18 @@ fornecedor: Fornecedor (id: 2, nome: 'Joaquina',
     id: 5, nome: 'Campina Grande', estado: Estado(
         id: 3, nome: 'Paraíba', sigla: 'PB'))),
   calcularComissao: (double valor, double percentual) => valor * percentual / 100);
-  
-      ;
+
+
+var venda 3 = Venda(id: 3,
+cliente: Cliente(id: 3, nome: 'Maria',
+cidadeTrabalho: Cidade(
+  id: 6, nome: 'São Paulo', estado: Estado(
+    id: 4, nome: 'São Paulo', sigla: 'SP')),
+cidadeMoradia: Cidade(
+    id: 7, nome: 'São Paulo', estado: Estado(
+      id: 4, nome: 'São Paulo', sigla: 'SP'))),
+fornecedor: Fornecedor (id: 3, nome: 'Mariana',
+      
         
       
     
