@@ -86,9 +86,22 @@ void main (List<String> args) {
 
 var venda2 = Venda(id: 2,
 cliente: Cliente(id: 2, nome: 'João',
-cidadeTrabalho: navirai,
-cidadeMoradia: navirai)
-)
+cidadeTrabalho: Cidade(
+  id: 4, nome: 'João Pessoa', estado: Estado(
+    id: 3, nome: 'Paraíba', sigla: 'PB')),
+cidadeMoradia: Cidade(
+    id: 5, nome: 'Campina Grande', estado: Estado(
+      id: 3, nome: 'Paraíba', sigla: 'PB'))),
+fornecedor: Fornecedor (id: 2, nome: 'Joaquina',
+  cidadeTrabalho: Cidade(
+    id: 4, nome: 'João Pessoa', estado: Estado(
+      id: 3, nome: 'Paraíba', sigla: 'PB')),
+  cidadeMoradia: Cidade(
+    id: 5, nome: 'Campina Grande', estado: Estado(
+        id: 3, nome: 'Paraíba', sigla: 'PB'))),
+  calcularComissao: (double valor, double percentual) => valor * percentual / 100);
+  
+      ;
         
       
     
