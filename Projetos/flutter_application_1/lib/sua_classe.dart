@@ -87,9 +87,13 @@ class Venda{
   int id;
   Cliente cliente;
   Fornecedor fornecedor;
-  double Function(double) calcularComissao;
+  Function calcularComissao;
 
   Venda({required this.id, required this.cliente, required this.fornecedor, required this.calcularComissao}){
     print('Venda: $id, Cliente: ${cliente.nome}, Fornecedor: ${fornecedor.nome}');
   }
+}
+
+double calcularComissao(double valor){
+  return 0.0;
 }

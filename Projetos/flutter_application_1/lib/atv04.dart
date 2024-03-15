@@ -21,6 +21,8 @@ https://dart.dev/tools/linter-rules/unnecessary_getters_setters
 
 import 'dart:io';
 
+import 'package:flutter/material.dart';
+import 'package:flutter_application_1/ativ02.dart';
 import 'package:flutter_application_1/minha_classe.dart';
 import 'package:flutter_application_1/sua_classe.dart';
 
@@ -54,7 +56,44 @@ void main (List<String> args) {
 */
 
 void main (List<String> args) {
-  var estado = Estado(id: 1, nome: 'Paraná', sigla: 'PR');
+  var parana = Estado(
+    id: 1, nome: 'Paraná', sigla: 'PR');
 
-  var cidade = Cidade(id: 1, nome: 'Paranavaí', estado: estado);
+  var paranavai = Cidade(
+    id: 1, nome: 'Paranavaí', estado: parana);
+
+  var navirai = Cidade(
+    id: 2, nome: 'Naviraí', estado: Estado(
+      id: 2, nome: 'Mato Grosso do Sul', sigla: 'MS'),);
+
+  var maringa = Cidade(
+    id: 3, nome: 'Maringá', estado: parana);
+
+  var matogrossodosul = Estado(
+    id: 2, nome: 'Mato Grosso do Sul', sigla: 'MS');
+
+  
+
+  var venda1 = Venda(id: 1, 
+  cliente: Cliente(id: 1,nome: 'Eduardo', 
+  cidadeTrabalho: maringa, 
+  cidadeMoradia: paranavai), 
+  fornecedor: Fornecedor (id: 1, nome: 'Jo', 
+  cidadeTrabalho: maringa, 
+  cidadeMoradia: maringa),
+  calcularComissao: (double valor, double percentual) => valor * percentual / 100);
+      
+
+var venda2 = Venda(id: 2,
+cliente: Cliente(id: 2, nome: 'João',
+cidadeTrabalho: navirai,
+cidadeMoradia: navirai)
+)
+        
+      
+    
+      
+      
+    
+    
 }
