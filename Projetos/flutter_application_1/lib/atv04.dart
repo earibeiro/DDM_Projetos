@@ -31,9 +31,12 @@ void main (List<String> args) {
   MinhaClasse(3,3); // Não possui REFERÊNCIA, não é recomendado.
 */
 
+/*
   void main (List<String> args) {
   String email = '';
   String senha = '';
+  String estado = '';
+  String cidade = '';
   
   MinhaClasse mc = new MinhaClasse(x: 1,y: 2);
   var mc2 = MinhaClasse(x: 2,y: 10); // Utilizar este modelo.
@@ -47,4 +50,11 @@ void main (List<String> args) {
 
   Login l1 = new Login(email: email,senha: senha);  
 
+}
+*/
+
+void main (List<String> args) {
+  var estado = Estado(id: 1, nome: 'Paraná', sigla: 'PR');
+
+  var cidade = Cidade(id: 1, nome: 'Paranavaí', estado: estado);
 }
