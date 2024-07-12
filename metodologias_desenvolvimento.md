@@ -3,23 +3,23 @@
 <h2>Metodologias Tradicionais</h2>
 <h3>Cascata (Waterfall):</h3> 
 
-<p>Descrição: Modelo sequencial onde cada fase do desenvolvimento (requisitos, design, implementação, verificação, manutenção) deve ser completada antes do início da próxima.
+Descrição: Modelo sequencial onde cada fase do desenvolvimento (requisitos, design, implementação, verificação, manutenção) deve ser completada antes do início da próxima.
 Vantagens: Clareza na definição de etapas, documentação extensa e controle de mudanças rigoroso.
-Desvantagens: Rigidez, dificuldade de adaptação a mudanças e tempo prolongado antes da entrega de um produto funcional.</p><br>
+Desvantagens: Rigidez, dificuldade de adaptação a mudanças e tempo prolongado antes da entrega de um produto funcional.<br>
 
 <h3>Modelo V:</h3>
 
-<p>Descrição: Variante do modelo Cascata, onde as etapas de desenvolvimento e testes são planejadas em paralelo.
+Descrição: Variante do modelo Cascata, onde as etapas de desenvolvimento e testes são planejadas em paralelo.
 Vantagens: Melhoria no foco de testes, validação precoce e verificação contínua.
-Desvantagens: Mesmas limitações de flexibilidade que o modelo Cascata.</p><br>
+Desvantagens: Mesmas limitações de flexibilidade que o modelo Cascata.<br>
 
 
 <h2>Metodologias Ágeis</h2>
 <h3>Scrum:</h3>
 
-<p>Descrição: Estrutura de gestão de projetos que divide o trabalho em ciclos curtos e iterativos chamados de sprints (geralmente de 2 a 4 semanas).
+Descrição: Estrutura de gestão de projetos que divide o trabalho em ciclos curtos e iterativos chamados de sprints (geralmente de 2 a 4 semanas).
 Vantagens: Alta flexibilidade, adaptação rápida a mudanças, entregas incrementais e feedback contínuo.
-Desvantagens: Requer comprometimento e colaboração constante da equipe, pode ser difícil de escalar para projetos muito grandes.</p>
+Desvantagens: Requer comprometimento e colaboração constante da equipe, pode ser difícil de escalar para projetos muito grandes.
 
 <h3>Extreme Programming (XP):</h3>
 
@@ -47,19 +47,19 @@ Dependências: As interdependências entre atividades podem causar atrasos e pro
 
 <h2>Metodologias Híbridas</h2>
 
-1.Lean Development:
+<h3>Lean Development:</h3>
 
 Descrição: Baseia-se nos princípios do Lean Manufacturing, focando na eliminação de desperdícios, entrega rápida e melhoria contínua.
 Vantagens: Eficiência, redução de custos e foco na entrega de valor ao cliente.
 Desvantagens: Requer uma cultura organizacional forte de melhoria contínua e pode ser difícil de implementar sem comprometimento total da equipe.
 
-2.DevOps:
+<h3>DevOps:</h3>
 
 Descrição: Combina desenvolvimento (Dev) e operações (Ops) para melhorar a colaboração e integração contínua e entrega contínua (CI/CD).
 Vantagens: Melhora a colaboração entre equipes, acelera a entrega de software, aumenta a qualidade e a confiabilidade.
 Desvantagens: Pode ser desafiador implementar mudanças culturais e organizacionais necessárias, além de exigir ferramentas e processos integrados.
 
-3. Modelo Incremental
+<h3>Modelo Incremental</h3>
 Descrição:
 O modelo incremental combina elementos do modelo cascata em uma abordagem iterativa e incremental. Em vez de desenvolver o sistema completo de uma só vez, o sistema é construído em pequenas partes funcionais, chamadas incrementos.
 
