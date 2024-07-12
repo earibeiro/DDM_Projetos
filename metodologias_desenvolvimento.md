@@ -1,6 +1,6 @@
 <h1> Realizar uma breve descrição a respeito da metodologia de desenvolvimento (ES): </h2><br>
 
-Metodologias Tradicionais
+<h2>Metodologias Tradicionais</h2>
 1. Cascata (Waterfall):
 
 Descrição: Modelo sequencial onde cada fase do desenvolvimento (requisitos, design, implementação, verificação, manutenção) deve ser completada antes do início da próxima.
@@ -11,7 +11,9 @@ Desvantagens: Rigidez, dificuldade de adaptação a mudanças e tempo prolongado
 Descrição: Variante do modelo Cascata, onde as etapas de desenvolvimento e testes são planejadas em paralelo.
 Vantagens: Melhoria no foco de testes, validação precoce e verificação contínua.
 Desvantagens: Mesmas limitações de flexibilidade que o modelo Cascata.
-Metodologias Ágeis
+
+
+<h2>Metodologias Ágeis</h2>
 1. Scrum:
 
 Descrição: Estrutura de gestão de projetos que divide o trabalho em ciclos curtos e iterativos chamados de sprints (geralmente de 2 a 4 semanas).
@@ -41,7 +43,7 @@ Desvantagens:
 Coordenação Complexa: Requer uma coordenação rigorosa e eficaz entre as equipes.
 Dependências: As interdependências entre atividades podem causar atrasos e problemas de integração.
 
-Metodologias Híbridas
+<h2>Metodologias Híbridas</h2>
 
 1.Lean Development:
 
