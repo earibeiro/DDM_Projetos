@@ -1,7 +1,7 @@
 <h1> Realizar uma breve descrição a respeito da metodologia de desenvolvimento (ES): </h2><br>
 
 <h2>Metodologias Tradicionais</h2>
-<h3>Cascata (Waterfall):</h3>. 
+<h3>Cascata (Waterfall):</h3> 
 
 <p>Descrição: Modelo sequencial onde cada fase do desenvolvimento (requisitos, design, implementação, verificação, manutenção) deve ser completada antes do início da próxima.
 Vantagens: Clareza na definição de etapas, documentação extensa e controle de mudanças rigoroso.
@@ -15,18 +15,19 @@ Desvantagens: Mesmas limitações de flexibilidade que o modelo Cascata.</p><br>
 
 
 <h2>Metodologias Ágeis</h2>
-1. Scrum:
+<h3>Scrum:</h3>
 
-Descrição: Estrutura de gestão de projetos que divide o trabalho em ciclos curtos e iterativos chamados de sprints (geralmente de 2 a 4 semanas).
+<p>Descrição: Estrutura de gestão de projetos que divide o trabalho em ciclos curtos e iterativos chamados de sprints (geralmente de 2 a 4 semanas).
 Vantagens: Alta flexibilidade, adaptação rápida a mudanças, entregas incrementais e feedback contínuo.
-Desvantagens: Requer comprometimento e colaboração constante da equipe, pode ser difícil de escalar para projetos muito grandes.
-2. Extreme Programming (XP):
+Desvantagens: Requer comprometimento e colaboração constante da equipe, pode ser difícil de escalar para projetos muito grandes.</p>
+
+<h3>Extreme Programming (XP):</h3>
 
 Descrição: Foca em práticas de desenvolvimento de software que melhoram a qualidade e a capacidade de resposta a mudanças (ex.: programação em par, desenvolvimento orientado a testes).
 Vantagens: Alta qualidade de código, adaptação rápida a mudanças e satisfação do cliente.
 Desvantagens: Requer uma equipe disciplinada e bem treinada, pode ser difícil de implementar em grandes projetos ou equipes.
 
-3. Modelo de Desenvolvimento Concorrente
+<h3>Modelo de Desenvolvimento Concorrente</h3>
 Descrição:
 O modelo de desenvolvimento concorrente, ou desenvolvimento simultâneo, envolve a realização de várias atividades de desenvolvimento em paralelo.
 
