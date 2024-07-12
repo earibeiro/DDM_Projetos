@@ -43,7 +43,7 @@ Flexibilidade: Permite ajustes e mudanças rápidas.
 Desvantagens:
 
 Coordenação Complexa: Requer uma coordenação rigorosa e eficaz entre as equipes.
-Dependências: As interdependências entre atividades podem causar atrasos e problemas de integração.
+Dependências: As interdependências entre atividades podem causar atrasos e problemas de integração.<br><br>
 
 <h2>Metodologias Híbridas</h2>
 
