@@ -12,11 +12,13 @@ Implementação: Desenvolvimento e implementação do incremento.
 Testes: Teste do incremento desenvolvido.
 Entrega: Entrega do incremento ao cliente.
 Revisão e Integração: Revisão do feedback e integração dos incrementos subsequentes.
-Vantagens:
 
-Flexibilidade: Permite ajustes baseados no feedback dos usuários.
-Risco Reduzido: Problemas são identificados e corrigidos mais cedo.
-Entregas Parciais: Partes funcionais do sistema são entregues mais cedo, proporcionando valor ao cliente rapidamente.
+<ol>Vantagens:
+
+<li>Flexibilidade: Permite ajustes baseados no feedback dos usuários.</li>
+<li>Risco Reduzido: Problemas são identificados e corrigidos mais cedo.</li>
+<li>Entregas Parciais: Partes funcionais do sistema são entregues mais cedo, proporcionando valor ao cliente rapidamente.</li>
+</ol>
 Desvantagens:
 
 Complexidade de Gerenciamento: Exige um bom gerenciamento e coordenação entre os incrementos.
