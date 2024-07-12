@@ -1,11 +1,12 @@
 <h1> Realizar uma breve descrição a respeito da metodologia de desenvolvimento (ES): </h2><br>
 
 <h2>Metodologias Tradicionais</h2>
-1. Cascata (Waterfall):
+<h3>Cascata (Waterfall):</h3>1. 
 
-Descrição: Modelo sequencial onde cada fase do desenvolvimento (requisitos, design, implementação, verificação, manutenção) deve ser completada antes do início da próxima.
+<p>Descrição: Modelo sequencial onde cada fase do desenvolvimento (requisitos, design, implementação, verificação, manutenção) deve ser completada antes do início da próxima.
 Vantagens: Clareza na definição de etapas, documentação extensa e controle de mudanças rigoroso.
-Desvantagens: Rigidez, dificuldade de adaptação a mudanças e tempo prolongado antes da entrega de um produto funcional.
+Desvantagens: Rigidez, dificuldade de adaptação a mudanças e tempo prolongado antes da entrega de um produto funcional.</p><br>
+
 2. Modelo V:
 
 Descrição: Variante do modelo Cascata, onde as etapas de desenvolvimento e testes são planejadas em paralelo.
