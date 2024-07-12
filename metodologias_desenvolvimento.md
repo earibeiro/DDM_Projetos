@@ -2,10 +2,9 @@
 
 <h3>Modelo Incremental</h3>
 Descrição:
-O modelo incremental combina elementos do modelo cascata em uma abordagem iterativa e incremental. Em vez de desenvolver o sistema completo de uma só vez, o sistema é construído em pequenas partes funcionais, chamadas incrementos.<br>
+O modelo incremental combina elementos do modelo cascata em uma abordagem iterativa e incremental. Em vez de desenvolver o sistema completo de uma só vez, o sistema é construído em pequenas partes funcionais, chamadas incrementos.<br><br>
 
 <ol>Fases:
-
 <li>Planejamento: Identificação dos requisitos e planejamento dos incrementos.</li>
 <li>Análise e Design: Realização de análises detalhadas e design do primeiro incremento.</li>
 <li>Implementação: Desenvolvimento e implementação do incremento.</li>
