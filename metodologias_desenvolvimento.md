@@ -11,7 +11,7 @@ Desvantagens: Rigidez, dificuldade de adaptação a mudanças e tempo prolongado
 
 Descrição: Variante do modelo Cascata, onde as etapas de desenvolvimento e testes são planejadas em paralelo.
 Vantagens: Melhoria no foco de testes, validação precoce e verificação contínua.
-Desvantagens: Mesmas limitações de flexibilidade que o modelo Cascata.<br>
+Desvantagens: Mesmas limitações de flexibilidade que o modelo Cascata.<br><br>
 
 
 <h2>Metodologias Ágeis</h2>
@@ -100,7 +100,7 @@ Desvantagens:
 Custo Elevado: Pode ser mais caro devido ao foco intensivo em análise de riscos e prototipação.
 Complexidade: Requer habilidades avançadas de gerenciamento de projetos.
 
-3. Modelo de Montagem de Componentes
+<h3>Modelo de Montagem de Componentes</h3>
 Descrição:
 O modelo de montagem de componentes, ou desenvolvimento baseado em componentes, envolve a construção de sistemas a partir de componentes de software reutilizáveis.
 
